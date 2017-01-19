@@ -1,0 +1,22 @@
+language: go
+
+go:
+	- 1.6
+
+before_install:
+	- echo before install....
+
+install:
+	- echo installing....
+
+after_install:
+	- echo after install....
+
+before_script:
+	- echo before script....
+
+after_script:
+	- echo after script....
+
+script:
+	- echo scriptiing....	
